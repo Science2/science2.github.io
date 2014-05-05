@@ -907,6 +907,7 @@
 		border-top: solid 5px #e3daa8;
 		border-bottom: solid 5px #c1cac5;
 	}
+
 	
 /*********************************************************************************/
 /* Header                                                                        */
@@ -927,6 +928,7 @@
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
+    
 
 	#banner
 	{
@@ -1004,23 +1006,16 @@
 
 /*********************************************************************************/
 /* Main                                                                          */
-/*********************************************************************************/
+/*********************************************************************************/  
+    
+    .is-highlight .button{
+        float: right;
+    }
 
-	#main
-	{
-        .button
-		{
-			color: #b4b7b5;
-			background: transparent !important;
-			border: solid 4px rgba(87, 93, 89, 0.35);
-			border-radius: 16px;
-			-moz-transition: border-color .2s ease-in-out, color .2s ease-in-out;
-			-webkit-transition: border-color .2s ease-in-out, color .2s ease-in-out;
-			-o-transition: border-color .2s ease-in-out, color .2s ease-in-out;
-			-ms-transition: border-color .2s ease-in-out, color .2s ease-in-out;
-			transition: border-color .2s ease-in-out, color .2s ease-in-out;
-		}
-	}
+    .is-page-content .button{
+        float: right;
+    }
+
 
 /*********************************************************************************/
 /* Footer                                                                        */
