@@ -1016,6 +1016,12 @@
         float: right;
     }
 
+    ul {
+        padding-bottom: none;
+        margin-bottom: none;
+        margin-top: none;
+        padding-top: none;
+    }
 
 /*********************************************************************************/
 /* Footer                                                                        */
